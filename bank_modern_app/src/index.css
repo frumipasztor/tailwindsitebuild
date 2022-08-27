@@ -31,7 +31,6 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
 }
 
 .bg-blue-gradient {
@@ -137,4 +136,23 @@
 .white__gradient {
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
+}
+
+.float {
+  transition-duration: 1s;
+}
+
+.float:hover {
+  transform: translateY(-5px);
+  transition: 1s;
+}
+
+.scale {
+  transition-duration: 1s;
+}
+
+.scale:hover {
+  transform: scale(1.2) rotate(4deg);
+  font-weight: 500;
+  transition: 1s;
 }
